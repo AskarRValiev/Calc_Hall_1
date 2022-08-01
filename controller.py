@@ -1,10 +1,11 @@
 #связующее звено между модулями
 
+from numbers import Rational
 import complex_sum as c_sum
 import complex_sub as c_sub
 import logger as log
 import util
-#import rational as rat
+import rational as rat
 import view
 
 def hello():
@@ -22,13 +23,13 @@ def action():
     mode = view.select_mode()
     match mode:
         case '1':
-            print('Пока заглушка')
+            rat.RationalFraction.__init__
         case '2':
-            print('Пока заглушка')
+            rat.RationalFraction
         case '3':
-            print('Пока заглушка')
+            rat.RationalFraction
         case '4':
-            print('Пока заглушка')
+            rat.RationalFraction
         case '5':
             button_click(5)
         case '6':

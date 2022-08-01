@@ -1,3 +1,5 @@
+import re
+
 
 class RationalFraction:
     def __init__(self, numerator_or_string, denominator=1):
